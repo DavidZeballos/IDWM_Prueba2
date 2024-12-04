@@ -16,7 +16,7 @@ Este proyecto implementa una API REST para gestionar usuarios utilizando **ASP.N
 
 ### **Clonar el repositorio**
 ```bash
-git clone <url_del_repositorio>
+git clone https://github.com/DavidZeballos/IDWM_Prueba2
 cd UserApi
 ```
 
