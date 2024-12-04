@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "3baa7405-4811-4387-8648-ff914748c686",
+		"name": "IDWM API Prueba 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27148180"
+	},
+	"item": [
+		{
+			"name": "Get Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5056/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5056",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Carlos Díaz\",\r\n    \"email\": \"carlos.diaz@example.com\",\r\n    \"birthDate\": \"1995-06-30\",\r\n    \"gender\": \"Masculino\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5056/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5056",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
