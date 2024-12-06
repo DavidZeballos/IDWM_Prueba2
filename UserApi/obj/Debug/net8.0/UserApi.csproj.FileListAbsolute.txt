@@ -158,3 +158,4 @@ G:\Education\Universidad\Desarrollo WebMovil\Int2\Prueba2\IDWM_Prueba2\UserApi\o
 G:\Education\Universidad\Desarrollo WebMovil\Int2\Prueba2\IDWM_Prueba2\UserApi\obj\Debug\net8.0\UserApi.pdb
 G:\Education\Universidad\Desarrollo WebMovil\Int2\Prueba2\IDWM_Prueba2\UserApi\obj\Debug\net8.0\UserApi.genruntimeconfig.cache
 G:\Education\Universidad\Desarrollo WebMovil\Int2\Prueba2\IDWM_Prueba2\UserApi\obj\Debug\net8.0\ref\UserApi.dll
+G:\Education\Universidad\Desarrollo WebMovil\Int2\Prueba2\IDWM_Prueba2\UserApi\bin\Debug\net8.0\IDWM_Prueba2.postman_collection.json

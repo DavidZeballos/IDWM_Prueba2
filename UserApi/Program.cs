@@ -18,6 +18,17 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configuración de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader() 
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Aplicar migraciones automáticamente al iniciar la aplicación
@@ -43,6 +54,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Activar CORS
+app.UseCors("AllowAll");
 
 // Forzar HTTPS en las solicitudes
 app.UseHttpsRedirection();

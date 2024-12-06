@@ -36,7 +36,7 @@ No necesitas comandos manuales de migración. Simplemente ejecuta:
 dotnet run
 ```
 
-### **Qué sucede al iniciar**
+### **Al iniciar**
 1. Se aplicarán automáticamente las migraciones pendientes.
 2. Si no existe, se creará la base de datos `users.db`.
 3. Se inicializarán datos de prueba en la tabla `Users`.
